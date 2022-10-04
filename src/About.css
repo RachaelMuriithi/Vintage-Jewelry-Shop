@@ -1,0 +1,87 @@
+body {
+  background-image: url("https://i.pinimg.com/564x/07/ec/d1/07ecd1d870959e6eabeaff2e2c9f070d.jpg");
+  height: 350vh;
+  width: 100%;
+  background-position: left;
+  /* background-size: 100%;  */
+  background-repeat: repeat;
+}
+.About__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  color: grey;
+  list-style: none;
+}
+.li_list {
+  margin-right: 2%;
+  margin-top: 3%;
+  margin-left: 2%;
+}
+.li_list button {
+  padding: 9px 25px;
+  background-color: #845d32;
+  color: white;
+  border: none;
+  border-radius: 60px;
+  font-size: 20px;
+  transition: all 0.3s ease 0s;
+  font-weight: 600;
+  font-family: "Dancing Script", cursive;
+}
+.li_list button:hover {
+  background-color: rgb(162, 170, 167);
+}
+#logo {
+  font-size: 30px;
+  padding-bottom: 1%;
+  padding-left: 1%;
+  color: #fcc675;
+  font-family: "Lobster", cursive;
+  text-shadow: 2px 2px 3px rgb(205, 127, 50);
+  margin-right: 6%;
+  margin-bottom: auto;
+  padding-right: 1%;
+  background-color: #080808;
+}
+#cart {
+  margin-right: 4%;
+}
+span {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: auto;
+}
+.about {
+  color: #d3c5af;
+  margin-top: 7%;
+  margin-left: 20%;
+  font-size: 30px;
+  font-family: "Dancing Script", cursive;
+}
+.about h1 {
+  margin-left: 25%;
+}
+.contact_us {
+  margin-top: 12%;
+  color: beige;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+  font-size: 20px;
+  margin-left: 3%;
+  font-weight: 600;
+  font-family: "Dancing Script", cursive;
+  list-style: none;
+}
+li i {
+  margin-left: 30%;
+}
+.contact_us a {
+  color: beige;
+  text-decoration: none;
+}
+a:hover {
+  color: #fcc675;
+}
