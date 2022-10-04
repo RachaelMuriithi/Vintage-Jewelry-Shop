@@ -1,9 +1,8 @@
-body {
+.about {
   background-image: url("https://i.pinimg.com/564x/07/ec/d1/07ecd1d870959e6eabeaff2e2c9f070d.jpg");
   height: 350vh;
   width: 100%;
   background-position: left;
-  /* background-size: 100%;  */
   background-repeat: repeat;
 }
 .About__content {
@@ -79,9 +78,11 @@ li i {
   margin-left: 30%;
 }
 .contact_us a {
-  color: beige;
-  text-decoration: none;
+  color: beige
 }
 a:hover {
   color: #fcc675;
+}
+.neckLace {
+  background-image: url("https://i.pinimg.com/564x/07/ec/d1/07ecd1d870959e6eabeaff2e2c9f070d.jpg");
 }
