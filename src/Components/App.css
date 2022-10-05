@@ -1,11 +1,16 @@
 .about {
   background-image: url("https://i.pinimg.com/564x/07/ec/d1/07ecd1d870959e6eabeaff2e2c9f070d.jpg");
-  height: 350vh;
+  height: 85vh;
   width: 100%;
   background-position: left;
   background-repeat: repeat;
+  opacity: 0.8;
 }
 .About__content {
+  background-image: url("https://i.pinimg.com/564x/07/ec/d1/07ecd1d870959e6eabeaff2e2c9f070d.jpg");
+  padding-bottom: 1%;
+}
+.unlist {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -13,14 +18,14 @@
   list-style: none;
 }
 .li_list {
-  margin-right: 2%;
+  margin-right: 7%;
   margin-top: 3%;
-  margin-left: 2%;
+  margin-left: 1%;
 }
 .li_list button {
   padding: 9px 25px;
   background-color: #845d32;
-  color: white;
+  color: rgb(255, 255, 255);
   border: none;
   border-radius: 60px;
   font-size: 20px;
@@ -32,16 +37,14 @@
   background-color: rgb(162, 170, 167);
 }
 #logo {
-  font-size: 30px;
-  padding-bottom: 1%;
-  padding-left: 1%;
-  color: #fcc675;
+  font-size: 25px;
+  color: hsl(37, 37%, 89%);
   font-family: "Lobster", cursive;
   text-shadow: 2px 2px 3px rgb(205, 127, 50);
-  margin-right: 6%;
-  margin-bottom: auto;
+  margin-right: 8%;
   padding-right: 1%;
-  background-color: #080808;
+  text-decoration: none;
+  font-weight: 700
 }
 #cart {
   margin-right: 4%;
@@ -50,24 +53,25 @@ span {
   font-size: 20px;
   font-weight: 600;
   margin-top: auto;
+  text-decoration: none;
+  color: aliceblue;
 }
 .about {
-  color: #d3c5af;
-  margin-top: 7%;
-  margin-left: 20%;
+  font-weight: 500;
+  color: #e4d8c4;
   font-size: 30px;
   font-family: "Dancing Script", cursive;
 }
 .about h1 {
-  margin-left: 25%;
+  margin-left: 40%;
 }
 .contact_us {
-  margin-top: 12%;
-  color: beige;
+  margin-top: 5%;
+  color: rgb(232, 214, 141);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 80%;
+  width: 90%;
   font-size: 20px;
   margin-left: 3%;
   font-weight: 600;
@@ -78,11 +82,27 @@ li i {
   margin-left: 30%;
 }
 .contact_us a {
-  color: beige
+  color: rgb(224, 193, 135);
 }
 a:hover {
-  color: #fcc675;
+  color: #c5790e;
 }
 .neckLace {
-  background-image: url("https://i.pinimg.com/564x/07/ec/d1/07ecd1d870959e6eabeaff2e2c9f070d.jpg");
+  background-color: #2d261e;
+  height: 100vh;
+  width: 100%;
+
+}
+.about p {
+  margin-left: 25%;
+}
+.ring {
+  background-color: #4b371d;
+  height: 100vh;
+  width: 100%;
+}
+.watch {
+  background-color: #927a60;
+  height: 100vh;
+  width: 100%;
 }
