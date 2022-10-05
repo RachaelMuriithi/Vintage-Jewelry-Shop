@@ -7,6 +7,7 @@ import RingCategory from "./RingCategory";
 import WatchCategory from "./WatchCategory";
 import ShoppingCart from "./ShoppingCart";
 import "./App.css";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/shoppingcart" element={<ShoppingCart />} />
         </Routes>
       </div>
+      <Footer />
     </>
   );
 }
