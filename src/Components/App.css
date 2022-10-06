@@ -4,7 +4,7 @@
   width: 100%;
   background-position: left;
   background-repeat: repeat;
-  opacity: 0.8;
+  opacity: 0.85;
 }
 .About__content {
   background-image: url("https://i.pinimg.com/564x/07/ec/d1/07ecd1d870959e6eabeaff2e2c9f070d.jpg");
@@ -93,7 +93,7 @@ a:hover {
   height: 200vh;
   width: 100%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: flex-start;
   flex-wrap: wrap;
@@ -116,12 +116,12 @@ a:hover {
   height: 250vh;
   display: flex;
   flex-direction: row;
-  /* justify-content: space-around; */
+  justify-content: center; 
   align-items: center;
   flex-wrap: wrap;
 }
 .rings {
-  width: 28%;
+  width: 27%;
   margin-left: 5%;
 }
 .rings img {
@@ -130,13 +130,13 @@ a:hover {
 }
 /* watch component */
 .watch {
-  background-color: #927a60;
+  background-color: #654b30;
   height: 200vh;
   width: 100%;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  justify-content: center;
+  justify-content: space-around;
   flex-wrap: wrap;
   align-content: space-around;
 }
@@ -144,6 +144,7 @@ a:hover {
   width: 270px;
   margin-top: 5%;
 }
+
 .watches {
   width: 28%;
   margin-left: 5%;
