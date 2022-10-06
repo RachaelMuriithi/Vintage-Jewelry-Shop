@@ -95,6 +95,7 @@ a:hover {
 .about p {
   margin-left: 25%;
 }
+/* ring component */
 .ring {
   background-color: #4b371d;
   height: 250vh;
@@ -111,6 +112,7 @@ a:hover {
   width: 240px;
   margin-top: 5%;
 }
+/* watch component */
 .watch {
   background-color: #927a60;
   height: 100vh;

@@ -23,7 +23,7 @@ function RingCategory() {
               <Card.Body>
                 <Card.Title style={{fontWeight: "600",color: "whitesmoke",fontSize: "20px"}} key="ring.id">{ring.title}</Card.Title>
                 <Card.Text style={{fontWeight: "400",color: "whitesmoke",fontSize: "19px"}}>{ring.description}</Card.Text>
-                <Button variant="primary">Go somewhere</Button>
+                <Button style={{width: "13rem", height: "2rem",fontSize: "16px",fontWeight: "600",backgroundColor: "rgb(184,162,125)"}} variant="primary">Add to Cart</Button>
               </Card.Body>
             </CardGroup>
           </div>
