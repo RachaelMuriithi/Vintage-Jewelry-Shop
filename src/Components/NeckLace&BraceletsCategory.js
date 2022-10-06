@@ -10,7 +10,7 @@ function NecklaceCategory(handleSubmit) {
   const [necklaces, setNecklaces] = useState([]);
   // Add useEffect hook
   useEffect(() => {
-    //fetch the ring items
+    //fetch the necklace items
     fetch("http://localhost:3000/necklaces")
       .then((r) => r.json())
       .then((necklaces) => setNecklaces(necklaces));
@@ -19,7 +19,7 @@ function NecklaceCategory(handleSubmit) {
   return (
     <div className="necklace">
       <br />
-      {/* //display the ring items */}
+      {/* //display the necklace items */}
       {necklaces.map((necklace, key) => {
         return (
           <div className="necklaces">
@@ -54,6 +54,7 @@ function NecklaceCategory(handleSubmit) {
                 >
                   <b>Price: {necklace.price} $</b>
                 </Card.Text>
+                {/* add to cart button */}
                 <Button onClick = {() => addItem(necklace)}
                   style={{
                     width: "13rem",

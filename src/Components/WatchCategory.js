@@ -55,6 +55,7 @@ function WatchCategory() {
                 >
                   <b>Price: {watch.price} $</b>
                 </Card.Text>
+                {/* add to cart button */}
                 <Button
                   onClick = {() => addItem(watch)}
                   style={{
