@@ -53,7 +53,7 @@ function WatchCategory() {
                     fontSize: "19px",
                   }}
                 >
-                  <b>Price: {watch.price}</b>
+                  <b>Price: {watch.price} $</b>
                 </Card.Text>
                 <Button
                   onClick = {() => addItem(watch)}

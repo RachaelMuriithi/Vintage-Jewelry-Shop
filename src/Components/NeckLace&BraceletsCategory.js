@@ -52,7 +52,7 @@ function NecklaceCategory(handleSubmit) {
                     fontSize: "19px",
                   }}
                 >
-                  <b>Price: {necklace.price}</b>
+                  <b>Price: {necklace.price} $</b>
                 </Card.Text>
                 <Button onClick = {() => addItem(necklace)}
                   style={{

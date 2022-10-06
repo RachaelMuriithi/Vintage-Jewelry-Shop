@@ -52,7 +52,7 @@ function RingCategory(handleSubmit) {
                     fontSize: "19px",
                   }}
                 >
-                  <b>Price: {ring.price}</b>
+                  <b>Price: {ring.price} $</b>
                 </Card.Text>
                 <Button onClick = {() => addItem(ring)}
                   style={{

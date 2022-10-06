@@ -19,7 +19,7 @@ function ShoppingCart() {
       <div className="row justify-content-center">
         <div className="col-12">
           <h5>
-            Cart ({totalUniqueItems}) total Items: ({totalItems}){" "}
+           Cart ({totalUniqueItems}) total Items: ({totalItems}){" "}
           </h5>
           <table className="table table-light table-hover m-0">
             <tbody>
@@ -27,33 +27,36 @@ function ShoppingCart() {
                 return (
                   <tr key={id}>
                     <td>
-                      <img src={item.url} style={{ height: "6rem" }} />
+                      <img src={item.url} style={{ height: "10rem", marginBottom: "4%", marginRight: "5%" }} />
                     </td>
                     <td>{item.title}</td>
-                    <td>{item.price}</td>
-                    <td>Quantity {item.quantity}</td>
+                    <td><strong>{item.price}$</strong></td>
+                    <td><strong>Qty {item.quantity}</strong></td>
                     <td>
                       <button
                         className="btn btn-info ms-2"
+                        style={{ height: "2rem"}}
                         onClick={() =>
                           updateItemQuantity(item.id, item.quantity - 1)
                         }
                       >
-                        -
+                        <strong>-</strong> 
                       </button>
                       <button
                         className="btn btn-info ms-2"
+                        style={{ height: "2rem"}}
                         onClick={() =>
                           updateItemQuantity(item.id, item.quantity + 1)
                         }
                       >
-                        +
+                       <strong>+</strong> 
                       </button>
                       <button
                         className="btn btn-danger ms-2"
+                        style={{ height: "2rem"}}
                         onClick={() => removeItem(item.id)}
                       >
-                        Remove Item
+                        <strong>Remove Item</strong> 
                       </button>
                     </td>
                   </tr>
@@ -63,14 +66,14 @@ function ShoppingCart() {
           </table>
         </div>
         <div className="col-auto ms-auto">
-          <h2>Total Price: $ {cartTotal}</h2>
+          <h2>Total Price: {cartTotal} $</h2>
         </div>
         <div className="col-auto">
               <button 
               className="btn btn-danger m-2"
               onClick={() => emptyCart()}
-              >Clear Cart</button>
-              <button className="btn btn-primary m-2">Buy Now</button>
+              ><strong>Clear Cart</strong></button>
+              <button className="btn btn-primary m-2"><strong>Buy Now</strong></button>
         </div>
       </div>
     </section>

@@ -151,6 +151,9 @@ a:hover {
 }
 .py-4 {
   background-color: #73644e;
-  font-size: 25px;
+  font-size: 20px;
   color: whitesmoke;
+}
+.row {
+  margin-left: 30%;
 }
