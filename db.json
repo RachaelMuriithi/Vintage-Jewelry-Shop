@@ -120,51 +120,39 @@
   "rings": [
     {
       "id": 1,
-      "title": "Gold Symmetry Stackable Wave Ring",
-      "description": "This collection inspired by the Peyote, or Hikuri in Huitchol, which is à medicinal cactus found in the desert of Real de Catorce.",
+      "title": "Gold Symmetry Ring",
+      "description": "This collection inspired by the Peyote, or Hikuri in Huitchol,.",
       "url":"https://i.pinimg.com/564x/a0/cf/46/a0cf46918c462fdca0d5c16851c5a71b.jpg"
     },
     {
-      "id": 1,
-      "title": "STARFISH RING",
-      "description": "This piece is a limited edition design. It is as fancy and as fabulous as it looks. The combination of the shape and colour of gold is just a work of art. Wear it and you’ll shine like a star!",
+      "id": 2,
+      "title": "StarFish Ring",
+      "description": "This piece is a limited edition design.", 
       "url":"https://i.pinimg.com/564x/60/50/52/60505286014e0c3488af5b1597ef67e3.jpg"
     },
     {
-      "id": 2,
-      "title": "Luna Gold Eye Ring",
-      "description": "This piece is a limited edition design. It is as fancy and as fabulous as it looks. The combination of the shape and colour of gold is just a work of art. Wear it and you’ll shine like a star!",
-      "url":"https://i.pinimg.com/564x/34/98/2e/34982ea0407be1f23fcbc225e20087f1.jpg"
-    },
-    {
       "id": 3,
-      "title": "Reina Gold Ring",
-      "description": "This collection inspired by the Peyote, or Hikuri in Huitchol, which is à medicinal cactus found in the desert of Real de Catorce.",
-      "url":""
-    },
-    {
-      "id": 1,
-      "title": "Wings Frida Ring - Silver",
-      "description": "This collection inspired by the Peyote, or Hikuri in Huitchol, which is à medicinal cactus found in the desert of Real de Catorce.",
-      "url":""
+      "title": "Luna Gold Eye Ring",
+      "description": "It is as fancy and as fabulous as it looks.",
+      "url":"https://i.pinimg.com/564x/34/98/2e/34982ea0407be1f23fcbc225e20087f1.jpg"
     },
     {
       "id": 4,
       "title": "Ring Serpentine",
-      "description": "This collection inspired by the Peyote, or Hikuri in Huitchol, which is à medicinal cactus found in the desert of Real de Catorce.",
+      "description": "This collection inspired by the Peyote, or Hikuri in Huitchol.",
       "url":"https://i.pinimg.com/564x/94/76/2f/94762fe5adc44377b2970860f4e88f96.jpg"
     },
     {
       "id": 5,
       "title": "Ring Dos Manos - Silver",
-      "description": "Ring handmade in Bronze 22K Gold Plated or Silver .925. Adjustable.HARAMARA means “The sacred Ocean” in Huichol. This collection is inspired in the mysteries and beauty of our oceans.To create this collection, we combined ",
+      "description": "Ring handmade in Bronze 22K Gold Plated or Silver .925.",
       "url":"https://i.pinimg.com/564x/1a/7a/55/1a7a5571b871470443637e9cc96b093d.jpg"
     },
     {
       "id": 6,
       "title": "Ring Serpentine - Silver",
       "description": "Ring handmade in Bronze 22K Gold Plated or Silver .925. ",
-      "url":""
+      "url":"https://i.pinimg.com/564x/2b/7e/70/2b7e708f25a21dec3a2707aab9de8894.jpg"
     },
     {
       "id": 7,
@@ -175,19 +163,19 @@
     {
       "id": 8,
       "title": "Ring Large Peyote",
-      "description": "Ring handmade in Bronze 22K Gold Plated or Silver .925. Adjustable.HARAMARA means “The sacred Ocean” in Huichol. This collection is inspired in the mysteries and beauty of our oceans.",
+      "description": "Ring handmade in Bronze 22K Gold Plated or Silver .925. Adjustable.",
       "url":"https://i.pinimg.com/564x/8e/7d/d0/8e7dd02c1653b5a474d982094abebef9.jpg"
     },
     {
       "id": 9,
       "title": "Ring Circulo Plano Small",
-      "description": "This collection inspired by the Peyote, or Hikuri in Huitchol, which is à medicinal cactus found in the desert of Real de Catorce.",
+      "description": "This collection inspired by the Peyote, or Hikuri in Huitchol.",
       "url":"https://i.pinimg.com/564x/4c/69/d9/4c69d9565cf4f14a69c70175d815f1aa.jpg"
     },
     {
       "id": 10,
       "title": "Ibiza Large Ring - Silver",
-      "description": "This collection honors Haramara, which means “The sacred Ocean” in Huichol. It is inspired in the mysteries and beauty of our oceans.",
+      "description": "This collection honors Haramara, which means “The sacred Ocean”.",
       "url":"https://i.pinimg.com/564x/ea/bf/c5/eabfc5c951712c2fe024d2bec5dc68e7.jpg"
     }
   ]
