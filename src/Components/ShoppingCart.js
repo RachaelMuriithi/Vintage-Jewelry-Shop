@@ -26,6 +26,7 @@ function ShoppingCart() {
           </h5>
           <table className="table table-light table-hover m-0">
             <tbody>
+              {/* items display on the cart */}
               {items.map((item, id) => {
                 return (
                   <tr key={id}>
@@ -82,9 +83,11 @@ function ShoppingCart() {
             </tbody>
           </table>
         </div>
+        {/* Display cart's total */}
         <div className="col-auto ms-auto">
           <h2>Total Price: {cartTotal} $</h2>
         </div>
+        {/* Clear the whole cart */}
         <div className="col-auto">
           <button className="btn btn-danger m-2" onClick={() => emptyCart()}>
             <strong>Clear Cart</strong>
