@@ -54,6 +54,7 @@ function RingCategory(handleSubmit) {
                 >
                   <b>Price: {ring.price} $</b>
                 </Card.Text>
+                {/* add to cart button */}
                 <Button onClick = {() => addItem(ring)}
                   style={{
                     width: "13rem",

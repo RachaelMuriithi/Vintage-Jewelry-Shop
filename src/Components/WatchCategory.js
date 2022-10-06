@@ -19,7 +19,7 @@ function WatchCategory() {
   return (
     <div className="watch">
       <br />
-      {/* //display the ring items */}
+      {/* //display the watch items */}
       {watches.map((watch, key) => {
         return (
           <div className="watches">

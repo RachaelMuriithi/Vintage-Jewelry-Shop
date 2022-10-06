@@ -7,7 +7,7 @@ import {
   FaMailBulk,
   FaPhoneAlt,
 } from "react-icons/fa";
-
+//my homepage//
 function Home() {
   return (
     <>
@@ -33,6 +33,7 @@ function Home() {
           our Jewelry are carefully sourced from reliable venders, <br />{" "}
           leaving you with quality pieces.
         </p>
+        {/* footer section */}
         <div>
           <ul className="contact_us">
             <a href="#">

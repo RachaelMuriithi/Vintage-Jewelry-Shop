@@ -11,6 +11,7 @@ import Footer from "./Footer";
 import { CartProvider } from "react-use-cart";
 
 function App() {
+  // components to be displayed on UI//
   return (
     <>
       <CartProvider>
