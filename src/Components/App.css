@@ -4,7 +4,7 @@
   width: 100%;
   background-position: left;
   background-repeat: repeat;
-  opacity: 0.85;
+  opacity: 0.8;
 }
 .About__content {
   background-image: url("https://i.pinimg.com/564x/07/ec/d1/07ecd1d870959e6eabeaff2e2c9f070d.jpg");
@@ -148,4 +148,9 @@ a:hover {
 .watches {
   width: 28%;
   margin-left: 5%;
+}
+.py-4 {
+  background-color: #73644e;
+  font-size: 25px;
+  color: whitesmoke;
 }

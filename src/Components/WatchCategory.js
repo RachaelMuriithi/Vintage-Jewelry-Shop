@@ -3,8 +3,10 @@ import "./App.css";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import CardGroup from "react-bootstrap/CardGroup";
+import { useCart } from "react-use-cart"
 
-function WatchCategory({ handleSubmit }) {
+function WatchCategory() {
+  const {addItem} = useCart();
   const [watches, setWatches] = useState([]);
   // Add useEffect hook
   useEffect(() => {
@@ -54,7 +56,7 @@ function WatchCategory({ handleSubmit }) {
                   <b>Price: {watch.price}</b>
                 </Card.Text>
                 <Button
-                  onClick="handleSubmit"
+                  onClick = {() => addItem(watch)}
                   style={{
                     width: "13rem",
                     height: "2rem",

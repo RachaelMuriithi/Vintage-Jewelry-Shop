@@ -3,10 +3,9 @@ import "./App.css";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import CardGroup from "react-bootstrap/CardGroup";
-import {useCart} from "react-use-cart"
+import { useCart } from "react-use-cart"
 
 function NecklaceCategory(handleSubmit) {
-  const Itemcard = (props) => {
     const {addItem} = useCart();
   const [necklaces, setNecklaces] = useState([]);
   // Add useEffect hook
@@ -55,7 +54,7 @@ function NecklaceCategory(handleSubmit) {
                 >
                   <b>Price: {necklace.price}</b>
                 </Card.Text>
-                <Button onClick = {() => addItem(props.necklace)}
+                <Button onClick = {() => addItem(necklace)}
                   style={{
                     width: "13rem",
                     height: "2rem",
@@ -74,5 +73,5 @@ function NecklaceCategory(handleSubmit) {
       })}
     </div>
   );
-}
+  }
 export default NecklaceCategory;

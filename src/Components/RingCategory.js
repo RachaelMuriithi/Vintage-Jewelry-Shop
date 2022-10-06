@@ -3,8 +3,10 @@ import "./App.css";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import CardGroup from "react-bootstrap/CardGroup";
+import { useCart } from "react-use-cart"
 
 function RingCategory(handleSubmit) {
+  const {addItem} = useCart();
   const [rings, setRings] = useState([]);
   // Add useEffect hook
   useEffect(() => {
@@ -52,8 +54,7 @@ function RingCategory(handleSubmit) {
                 >
                   <b>Price: {ring.price}</b>
                 </Card.Text>
-                <Button
-                  onClick="handleSubmit"
+                <Button onClick = {() => addItem(ring)}
                   style={{
                     width: "13rem",
                     height: "2rem",
