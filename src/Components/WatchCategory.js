@@ -4,10 +4,8 @@ import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import CardGroup from "react-bootstrap/CardGroup";
 
-
-function WatchCategory() {
-
-       const [watches, setWatches] = useState([]);
+function WatchCategory({ handleSubmit }) {
+  const [watches, setWatches] = useState([]);
   // Add useEffect hook
   useEffect(() => {
     //fetch the watch items
@@ -20,11 +18,12 @@ function WatchCategory() {
     <div className="watch">
       <br />
       {/* //display the ring items */}
-      {watches.map((watch, id) => {
+      {watches.map((watch, key) => {
         return (
           <div className="watches">
-            <CardGroup style={{ width: "48rem" }}>
-              <Card.Img variant="top" src={watch.url} alt={watch.title} /> <br />
+            <CardGroup style={{ width: "48rem" }} key={watch.id} >
+              <Card.Img variant="top" src={watch.url} alt={watch.title} />{" "}
+              <br />
               <br />
               <Card.Body>
                 <Card.Title
@@ -33,7 +32,6 @@ function WatchCategory() {
                     color: "whitesmoke",
                     fontSize: "20px",
                   }}
-                  key="ring.id"
                 >
                   {watch.title}
                 </Card.Title>
@@ -46,7 +44,17 @@ function WatchCategory() {
                 >
                   {watch.description}
                 </Card.Text>
+                <Card.Text
+                  style={{
+                    fontWeight: "400",
+                    color: "whitesmoke",
+                    fontSize: "19px",
+                  }}
+                >
+                  <b>Price: {watch.price}</b>
+                </Card.Text>
                 <Button
+                  onClick="handleSubmit"
                   style={{
                     width: "13rem",
                     height: "2rem",

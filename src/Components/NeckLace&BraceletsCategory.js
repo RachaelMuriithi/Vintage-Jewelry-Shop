@@ -3,8 +3,11 @@ import "./App.css";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import CardGroup from "react-bootstrap/CardGroup";
+import {useCart} from "react-use-cart"
 
-function NecklaceCategory() {
+function NecklaceCategory(handleSubmit) {
+  const Itemcard = (props) => {
+    const {addItem} = useCart();
   const [necklaces, setNecklaces] = useState([]);
   // Add useEffect hook
   useEffect(() => {
@@ -18,10 +21,10 @@ function NecklaceCategory() {
     <div className="necklace">
       <br />
       {/* //display the ring items */}
-      {necklaces.map((necklace, id) => {
+      {necklaces.map((necklace, key) => {
         return (
           <div className="necklaces">
-            <CardGroup style={{ width: "48rem" }}>
+            <CardGroup style={{ width: "48rem" }} key={necklace.id}>
               <Card.Img variant="top" src={necklace.url} alt={necklace.title} /> <br />
               <br />
               <Card.Body>
@@ -31,7 +34,6 @@ function NecklaceCategory() {
                     color: "whitesmoke",
                     fontSize: "20px",
                   }}
-                  key="necklace.id"
                 >
                   {necklace.title}
                 </Card.Title>
@@ -44,7 +46,16 @@ function NecklaceCategory() {
                 >
                   {necklace.description}
                 </Card.Text>
-                <Button
+                <Card.Text
+                  style={{
+                    fontWeight: "400",
+                    color: "whitesmoke",
+                    fontSize: "19px",
+                  }}
+                >
+                  <b>Price: {necklace.price}</b>
+                </Card.Text>
+                <Button onClick = {() => addItem(props.necklace)}
                   style={{
                     width: "13rem",
                     height: "2rem",

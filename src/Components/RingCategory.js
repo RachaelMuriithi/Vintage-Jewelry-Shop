@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import CardGroup from "react-bootstrap/CardGroup";
 
-function RingCategory() {
+function RingCategory(handleSubmit) {
   const [rings, setRings] = useState([]);
   // Add useEffect hook
   useEffect(() => {
@@ -18,10 +18,10 @@ function RingCategory() {
     <div className="ring">
       <br />
       {/* //display the ring items */}
-      {rings.map((ring, id) => {
+      {rings.map((ring, key) => {
         return (
           <div className="rings">
-            <CardGroup style={{ width: "48rem" }}>
+            <CardGroup style={{ width: "48rem" }} key={ring.id}>
               <Card.Img variant="top" src={ring.url} alt={ring.title} /> <br />{" "}
               <br />
               <Card.Body>
@@ -31,7 +31,6 @@ function RingCategory() {
                     color: "whitesmoke",
                     fontSize: "20px",
                   }}
-                  key="ring.id"
                 >
                   {ring.title}
                 </Card.Title>
@@ -44,7 +43,17 @@ function RingCategory() {
                 >
                   {ring.description}
                 </Card.Text>
+                <Card.Text
+                  style={{
+                    fontWeight: "400",
+                    color: "whitesmoke",
+                    fontSize: "19px",
+                  }}
+                >
+                  <b>Price: {ring.price}</b>
+                </Card.Text>
                 <Button
+                  onClick="handleSubmit"
                   style={{
                     width: "13rem",
                     height: "2rem",

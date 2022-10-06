@@ -2,181 +2,211 @@
   "watches": [
     {
       "id": 1,
-      "title": "Apple Watch Leather B&",
+      "title": "Celestial Mystic Watch",
       "description": "Inspired by the watches of the 70s.",
-      "url":"https://i.pinimg.com/564x/2f/c8/9e/2fc89e3945336f7f7d1f170c0ed855fd.jpg"
+      "url":"https://i.pinimg.com/564x/2f/c8/9e/2fc89e3945336f7f7d1f170c0ed855fd.jpg",
+      "price": "390$"
     },
     {
-      "id": 1,
-      "title": "Vegtan Leather Apple Watch Strap",
+      "id": 2,
+      "title": "Vegtan Vintage",
       "description": "Featuring a Swing acetate case matched with a neon green NATO strap.",
-      "url":"https://i.pinimg.com/564x/d1/20/29/d12029e48d371adc1b330c1a349f9f2a.jpg"
+      "url":"https://i.pinimg.com/564x/d1/20/29/d12029e48d371adc1b330c1a349f9f2a.jpg",
+      "price": "380$"
     },
     {
-      "id": 1,
-      "title": "Vegtan Leather Apple Watch Strap",
+      "id": 3,
+      "title": "Vegtan Watch",
       "description": " Briston is going 100% digital with this Streamliner!",
-      "url":"https://i.pinimg.com/564x/b7/64/a3/b764a308570f41e11298c6cdee4c777f.jpg"
+      "url":"https://i.pinimg.com/564x/b7/64/a3/b764a308570f41e11298c6cdee4c777f.jpg",
+      "price": "360$"
     },
     {
-      "id": 1,
+      "id": 4,
       "title": "Briston Streamliner Digital Steel Bronze",
       "description": "Digital will appeal to both fashionistas and sportspersons.",
-      "url":"https://i.pinimg.com/564x/7e/7c/fe/7e7cfed9877ca1252c14b6e6bc17114d.jpg"
+      "url":"https://i.pinimg.com/564x/7e/7c/fe/7e7cfed9877ca1252c14b6e6bc17114d.jpg",
+      "price": "306$"
     },
     {
-      "id": 1,
+      "id": 5,
       "title": "Briston Streamliner Digital Acetate ",
       "description": "Streamliner Digital will appeal to both fashionistas and sportspersons.",
-      "url":"https://i.pinimg.com/564x/7e/7c/fe/7e7cfed9877ca1252c14b6e6bc17114d.jpg"
+      "url":"https://i.pinimg.com/564x/7e/7c/fe/7e7cfed9877ca1252c14b6e6bc17114d.jpg",
+      "price": "300$"
+
     },
     {
       "id": 1,
       "title": "Artister Dreamy Steel Watch",
       "description": "Digital will appeal to both fashionistas and sportspersons.",
-      "url":"https://i.pinimg.com/564x/64/f5/db/64f5db66d99dd5a82bfc80f942ad381e.jpg"
+      "url":"https://i.pinimg.com/564x/64/f5/db/64f5db66d99dd5a82bfc80f942ad381e.jpg",
+      "price": "309$"
     },
     {
-      "id": 1,
+      "id": 6,
       "title": "Rohje Into The Blue",
       "description": "Digital will appeal to both fashionistas and sportspersons looking for the right style.",
-      "url":"https://i.pinimg.com/564x/00/13/2e/00132e4587a1e31c5115f8e3da323139.jpg"
+      "url":"https://i.pinimg.com/564x/00/13/2e/00132e4587a1e31c5115f8e3da323139.jpg",
+      "price": "308$"
     },
     {
-      "id": 1,
+      "id": 7,
       "title": "Rohje Artister Dreamy Watch",
       "description": "Design point of the bracelet is ‘BOW TIE’ concept of clasp.",
-      "url":"https://i.pinimg.com/564x/f1/75/1a/f1751a16143d1a7ccbf3aebfcc90e902.jpg"
+      "url":"https://i.pinimg.com/564x/f1/75/1a/f1751a16143d1a7ccbf3aebfcc90e902.jpg",
+      "price": "304$"
     },
     {
-      "id": 1,
+      "id": 8,
       "title": "Umbra Emerald Watch - Gold",
       "description": "Digital will appeal to both fashionistas and sportspersons looking for the right style.",
-      "url":"https://i.pinimg.com/564x/67/12/03/671203d1d28d55017fd2514bd24ab3ce.jpg"
+      "url":"https://i.pinimg.com/564x/67/12/03/671203d1d28d55017fd2514bd24ab3ce.jpg",
+      "price": "305$"
     }
   ],
   "necklaces": [
     {
-      "id": 1,
+      "id": 9,
       "title": "Celestial Mystic Charm",
       "description": "Sun and Moon Vintage Style Celestial Yin Yang Celestial.",
-      "url":"https://i.pinimg.com/564x/7d/5e/81/7d5e8113a34e5102c33e42e257512a48.jpg"
+      "url":"https://i.pinimg.com/564x/7d/5e/81/7d5e8113a34e5102c33e42e257512a48.jpg",
+      "price": "306$"
     },
     {
-      "id": 1,
+      "id": 10,
       "title": "Laponie Bracelet - Gold, Pearl",
       "description": "Tell your story in gold made to last forever ",
-      "url":"https://i.pinimg.com/564x/e4/b5/78/e4b578b0013ddf6cd8759ba085c9b272.jpg"
+      "url":"https://i.pinimg.com/564x/e4/b5/78/e4b578b0013ddf6cd8759ba085c9b272.jpg",
+      "price": "309$"
     },
     {
-      "id": 1,
+      "id": 11,
       "title": "Necklace Four Hummingbirds",
       "description": "Simple and delicate gold initial with an accent diamond sparkle!",
-      "url":"https://i.pinimg.com/564x/34/fb/09/34fb0980b160977d67cb91acd46debcf.jpg"
+      "url":"https://i.pinimg.com/564x/34/fb/09/34fb0980b160977d67cb91acd46debcf.jpg",
+      "price": "308$"
     },
     {
-      "id": 1,
+      "id": 12,
       "title": "Caged Chain Bandana",
       "description": "Simple and delicate gold initial with an accent diamond sparkle!",
-      "url":"https://i.pinimg.com/564x/18/32/0f/18320f3c9e52c5ba43d3fcd0cb8b05f7.jpg"
+      "url":"https://i.pinimg.com/564x/18/32/0f/18320f3c9e52c5ba43d3fcd0cb8b05f7.jpg",
+      "price": "307$"
     },
     {
-      "id": 1,
+      "id": 13,
       "title": "Single Blue Sapphire Dewdrop Chain Bracelet",
       "description": "Tell your story in gold made to last forever ",
-      "url":"https://i.pinimg.com/564x/3c/7c/f5/3c7cf5fb35fa525b8a56b348ca3e506e.jpg"
+      "url":"https://i.pinimg.com/564x/3c/7c/f5/3c7cf5fb35fa525b8a56b348ca3e506e.jpg",
+      "price": "304$"
     },
     {
-      "id": 1,
+      "id": 14,
       "title": "Ohara Bracelet",
       "description": "The design element ASSHER CUT which represent a rendezvous.",
-      "url":"https://i.pinimg.com/564x/9b/88/aa/9b88aab27ccfe9144d0bcfa2a99541fd.jpg"
+      "url":"https://i.pinimg.com/564x/9b/88/aa/9b88aab27ccfe9144d0bcfa2a99541fd.jpg",
+      "price": "370$"
     },
     {
-      "id": 1,
+      "id": 15,
       "title": "Diamond Link Bracelet Matte - Gold",
       "description": "The perfect symmetric cut symbolizes the excellent taste.",
-      "url":"https://i.pinimg.com/564x/f6/bc/77/f6bc778323fdcfdea7d0df9bd7d1f0de.jpg"
+      "url":"https://i.pinimg.com/564x/f6/bc/77/f6bc778323fdcfdea7d0df9bd7d1f0de.jpg",
+      "price": "390$"
     },
     {
-      "id": 1,
+      "id": 16,
       "title": "Diamond Link Bracelet - White",
       "description": "The design element ASSHER CUT which represent a rendezvous.",
-      "url":"https://i.pinimg.com/564x/d5/9a/a1/d59aa123c36b36e57fbde078164551a9.jpg"
+      "url":"https://i.pinimg.com/564x/d5/9a/a1/d59aa123c36b36e57fbde078164551a9.jpg",
+      "price": "380$"
     },
     {
-      "id": 1,
+      "id": 17,
       "title": "Kelly Asscher Tennis Bracelet",
       "description": "The customized prong setting embraces the beauty of asscher cut stone.",
-      "url":"https://i.pinimg.com/564x/82/c9/59/82c95929d81fff0b73111e871fd7f9c8.jpg"
+      "url":"https://i.pinimg.com/564x/82/c9/59/82c95929d81fff0b73111e871fd7f9c8.jpg",
+      "price": "350$"
     },
     {
-      "id": 1,
+      "id": 18,
       "title": "Marilyn Four Nl Bracelet - Gold",
       "description": "Design point of the bracelet is ‘BOW TIE’ concept of clasp.",
-      "url":"https://i.pinimg.com/736x/c5/ae/c6/c5aec660c607e1404c8258e38fcbb84f.jpg"
+      "url":"https://i.pinimg.com/736x/c5/ae/c6/c5aec660c607e1404c8258e38fcbb84f.jpg",
+      "price": "360$"
     }
   ],
   "rings": [
     {
-      "id": 1,
+      "id": 19,
       "title": "Gold Symmetry Ring",
       "description": "This collection inspired by the Peyote, or Hikuri in Huitchol.",
-      "url":"https://i.pinimg.com/564x/a0/cf/46/a0cf46918c462fdca0d5c16851c5a71b.jpg"
+      "url":"https://i.pinimg.com/564x/a0/cf/46/a0cf46918c462fdca0d5c16851c5a71b.jpg",
+      "price": "340$"
     },
     {
-      "id": 2,
+      "id": 20,
       "title": "StarFish Ring",
       "description": "This piece is a limited edition design.", 
-      "url":"https://i.pinimg.com/564x/b3/86/0f/b3860fb7dab153e8b3f2745c320fe2fd.jpg"
+      "url":"https://i.pinimg.com/564x/b3/86/0f/b3860fb7dab153e8b3f2745c320fe2fd.jpg",
+      "price": "330$"
     },
     {
-      "id": 3,
+      "id": 21,
       "title": "Luna Gold Eye Ring",
       "description": "It is as fancy and as fabulous as it looks.",
-      "url":"https://i.pinimg.com/564x/96/ae/73/96ae731e58f83509f58f8bb65b75be91.jpg"
+      "url":"https://i.pinimg.com/564x/96/ae/73/96ae731e58f83509f58f8bb65b75be91.jpg",
+      "price": "320$"
     },
     {
-      "id": 4,
+      "id": 22,
       "title": "Ring Serpentine",
       "description": "This collection inspired by the Peyote, or Hikuri in Huitchol.",
-      "url":"https://i.pinimg.com/564x/33/fb/21/33fb21edc00c0c2d264a7a7575ae2451.jpg"
+      "url":"https://i.pinimg.com/564x/33/fb/21/33fb21edc00c0c2d264a7a7575ae2451.jpg",
+      "price": "310$"
     },
     {
-      "id": 5,
+      "id": 23,
       "title": "Ring Dos Manos - Silver",
       "description": "Ring handmade in Bronze 22K Gold Plated or Silver .925.",
-      "url":"https://i.pinimg.com/564x/b2/77/af/b277afe044ee6d46249a3dfcf71d8bed.jpg"
+      "url":"https://i.pinimg.com/564x/b2/77/af/b277afe044ee6d46249a3dfcf71d8bed.jpg",
+      "price": "304$"
     },
     {
-      "id": 6,
+      "id": 24,
       "title": "Ring Serpentine - Silver",
       "description": "Ring handmade in Bronze 22K Gold Plated or Silver .925. ",
-      "url":"https://i.pinimg.com/564x/b5/2b/bb/b52bbb313c0c8402aae111302f16f380.jpg"
+      "url":"https://i.pinimg.com/564x/b5/2b/bb/b52bbb313c0c8402aae111302f16f380.jpg",
+      "price": "308$"
     },
     {
-      "id": 7,
+      "id": 25,
       "title": "Ring Circulo Plano Small - Silver",
       "description": "Ring handmade in Bronze 22K Gold Plated or Silver .925.",
-      "url":"https://i.pinimg.com/564x/d1/e4/cd/d1e4cda93a6fcd3957886187b471f290.jpg"
+      "url":"https://i.pinimg.com/564x/d1/e4/cd/d1e4cda93a6fcd3957886187b471f290.jpg",
+      "price": "307$"
     },
     {
-      "id": 8,
+      "id": 26,
       "title": "Ring Large Peyote",
       "description": "Ring handmade in Bronze 22K Gold Plated or Silver.",
-      "url":"https://i.pinimg.com/564x/8e/7d/d0/8e7dd02c1653b5a474d982094abebef9.jpg"
+      "url":"https://i.pinimg.com/564x/8e/7d/d0/8e7dd02c1653b5a474d982094abebef9.jpg",
+      "price": "305$"
     },
     {
-      "id": 9,
+      "id": 27,
       "title": "Ring Circulo Plano Small",
       "description": "This collection inspired by the Peyote, or Hikuri in Huitchol.",
-      "url":"https://i.pinimg.com/564x/4c/69/d9/4c69d9565cf4f14a69c70175d815f1aa.jpg"
+      "url":"https://i.pinimg.com/564x/4c/69/d9/4c69d9565cf4f14a69c70175d815f1aa.jpg",
+      "price": "302$"
     },
     {
-      "id": 10,
+      "id": 28,
       "title": "Ibiza Large Ring - Silver",
       "description": "This collection honors Haramara, which means “The sacred Ocean”.",
-      "url":"https://i.pinimg.com/564x/ea/bf/c5/eabfc5c951712c2fe024d2bec5dc68e7.jpg"
+      "url":"https://i.pinimg.com/564x/ea/bf/c5/eabfc5c951712c2fe024d2bec5dc68e7.jpg",
+      "price": "300$"
     }
   ]
 }
