@@ -6,7 +6,9 @@ import CardGroup from "react-bootstrap/CardGroup";
 import { useCart } from "react-use-cart"
 
 function WatchCategory() {
+  //add item to cart call
   const {addItem} = useCart();
+  //useState Hook
   const [watches, setWatches] = useState([]);
   // Add useEffect hook
   useEffect(() => {
