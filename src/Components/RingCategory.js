@@ -13,7 +13,7 @@ function RingCategory() {
   // Add useEffect hook
   useEffect(() => {
     //fetch the ring items
-    fetch("http://localhost:3000/rings")
+    fetch("https://vintage-jewellery-shop.herokuapp.com/rings")
       .then((r) => r.json())
       .then((rings) => setRings(rings));
   }, []);
@@ -25,7 +25,7 @@ function RingCategory() {
       {rings.map((ring, key) => {
         return (
           <div className="rings">
-            <CardGroup style={{ width: "48rem" }} key={ring.id}>
+            <CardGroup style={{ width: "48rem" }} key= {ring.id}>
               <Card.Img variant="top" src={ring.url} alt={ring.title} /> <br />{" "}
               <br />
               <Card.Body>

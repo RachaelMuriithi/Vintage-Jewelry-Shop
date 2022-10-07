@@ -5,7 +5,7 @@ import Card from "react-bootstrap/Card";
 import CardGroup from "react-bootstrap/CardGroup";
 import { useCart } from "react-use-cart"
 
-function WatchCategory() {
+function WatchCategory(watch, key) {
   //add item to cart call
   const {addItem} = useCart();
   //useState Hook
@@ -13,7 +13,7 @@ function WatchCategory() {
   // Add useEffect hook
   useEffect(() => {
     //fetch the watch items
-    fetch("http://localhost:3000/watches")
+    fetch("https://vintage-jewellery-shop.herokuapp.com/watches")
       .then((r) => r.json())
       .then((watches) => setWatches(watches));
   }, []);

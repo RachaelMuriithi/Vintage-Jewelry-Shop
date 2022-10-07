@@ -5,14 +5,14 @@ import Card from "react-bootstrap/Card";
 import CardGroup from "react-bootstrap/CardGroup";
 import { useCart } from "react-use-cart"
 
-function NecklaceCategory() {
+function NecklaceCategory(necklace, key) {
   //add item to cart call
     const {addItem} = useCart();
   const [necklaces, setNecklaces] = useState([]);
   // Add useEffect hook
   useEffect(() => {
     //fetch the necklace items
-    fetch("http://localhost:3000/necklaces")
+    fetch("https://vintage-jewellery-shop.herokuapp.com/necklaces")
       .then((r) => r.json())
       .then((necklaces) => setNecklaces(necklaces));
   }, []);
