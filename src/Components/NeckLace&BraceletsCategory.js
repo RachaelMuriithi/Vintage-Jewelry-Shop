@@ -5,7 +5,7 @@ import Card from "react-bootstrap/Card";
 import CardGroup from "react-bootstrap/CardGroup";
 import { useCart } from "react-use-cart"
 
-function NecklaceCategory(handleSubmit) {
+function NecklaceCategory() {
   //add item to cart call
     const {addItem} = useCart();
   const [necklaces, setNecklaces] = useState([]);

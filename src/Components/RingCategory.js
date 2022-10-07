@@ -5,7 +5,7 @@ import Card from "react-bootstrap/Card";
 import CardGroup from "react-bootstrap/CardGroup";
 import { useCart } from "react-use-cart";
 
-function RingCategory(handleSubmit) {
+function RingCategory() {
   //add item to cart call
   const { addItem } = useCart();
   //useState hook
