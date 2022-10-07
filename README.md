@@ -16,14 +16,16 @@ Phase1-Independent-Project/
 ## Description
 
 This project is on a Vintage Jewellery shop that gives you access to quality vintage jewellery pieces.
+
 ## Objectives
-Render a Watch Category
-Render a Necklace & Bracelets Category total for your purchase and has a clear cart option.
-Render a Ring Category
-Render an add to cart with options to remove item from cart, increade and decrease quantity, gives you the 
-## Live Link 
 
+1. [Render a Watch Category ](#More-details-about-the-project)
+2. [Render a Necklace & Bracelets Category ]()
+3. [Render a Necklace & Bracelets Category](#Explains-the-tools-used)
+4. [Render a Ring Category]()
+5. [Render an add to cart with options to remove item from cart, increase and decrease quantity, gives you the total for your purchase and has a clear cart option. ]()
 
+## Live Link
 
 ## Installation
 
