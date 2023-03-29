@@ -12,7 +12,7 @@ function NecklaceCategory(necklace, key) {
   // Add useEffect hook
   useEffect(() => {
     //fetch the necklace items
-    fetch("https://vintage-jewellery-shop.herokuapp.com/necklaces")
+    fetch("http://localhost:3000/necklaces")
       .then((r) => r.json())
       .then((necklaces) => setNecklaces(necklaces));
   }, []);

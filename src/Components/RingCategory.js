@@ -13,7 +13,7 @@ function RingCategory() {
   // Add useEffect hook
   useEffect(() => {
     //fetch the ring items
-    fetch("https://vintage-jewellery-shop.herokuapp.com/rings")
+    fetch("http://localhost:3000/rings")
       .then((r) => r.json())
       .then((rings) => setRings(rings));
   }, []);

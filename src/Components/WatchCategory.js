@@ -13,7 +13,7 @@ function WatchCategory(watch, key) {
   // Add useEffect hook
   useEffect(() => {
     //fetch the watch items
-    fetch("https://vintage-jewellery-shop.herokuapp.com/watches")
+    fetch(" http://localhost:3000/watches")
       .then((r) => r.json())
       .then((watches) => setWatches(watches));
   }, []);
